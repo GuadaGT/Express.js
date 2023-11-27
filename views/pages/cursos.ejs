@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Cursos</title>
+</head>
+<body>
+    <h1>Listado de cursos</h1>
+    <ul>
+    <%
+    for (i=0;i<misdatos.length;i++) {
+        %>
+        <li>
+            <strong><%=misdatos[i].titulo %></strong><br/>
+            <%=misdatos[i].nivel %>
+        </li>
+        <% 
+        };
+        %>
+    </ul>
+</body>
+</html>
