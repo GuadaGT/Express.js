@@ -7,9 +7,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YkfzbOwGZlvMsBu7WgOho7UdRa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,7 +24,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/GUADALUPEGUITIERREZT/Documents/Desarrollo entorno servidor/Nodejs/EjercicioWebServer/Express",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/GUADALUPEGUITIERREZT/Documents/Desarrollo entorno servidor/Nodejs/EjercicioWebServer/DWES_Express",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -35,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701074761539</updated>
       <workItem from="1701074762672" duration="33000" />
+      <workItem from="1701159255097" duration="28000" />
     </task>
     <servers />
   </component>

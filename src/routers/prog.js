@@ -12,11 +12,12 @@ rutaProg.get("/",(req,res)=>{
 })
 
 rutaProg.post("/", (req,res)=>{
-    datos.prog.push({"titulo":"curso nuevo","nivel":"principiante"});
+    //ñadir nuevo cursos de programación
+    datos.prog.push({"titulo":req.body.titulo,"nivel":req.body.nivel});
     res.end("Curso añadido");
 })
 
-rutaProg.get("/:nivel",(req,res)=>{
+rutaProg.get("/filtrar/:nivel",(req,res)=>{
     listaDeCursosPorNivel = datos.prog.filter(
         (c)=>c.nivel==req.params.nivel
     );
